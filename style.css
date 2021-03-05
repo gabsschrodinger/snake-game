@@ -13,3 +13,23 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+button {
+    color: lightgreen;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 2em;
+    border-color: lightgreen;
+    border-radius: 10px;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+button i {
+    margin-right: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
